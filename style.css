@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --header-color: black;
+    --bg-color: #282A3A;
+    --primary-color: #FFC93C;
+    --link-active: white;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+header, footer{
+    background-color: var(--header-color);
+}
+
+.nav-link, .fa-brands{
+    color: var(--primary-color);
+}
+
+.fa-brands:hover{
+    color: white;
+}
+
+.nav-link:hover{
+    color: var(--link-active);
+}
+
+.nav-pills .nav-link.active{
+    color: var(--link-active);
+    background-color: var(--bg-color);
+}
+
+#foto-perfil img{
+    height: 75vh;
+    border: 10px solid var(--primary-color);
+    border-radius: 50%;
+
+}
+
+#skills, #contacts{
+    min-height: 80vh;
+}
+
+#projects{
+    min-height: 100vh;
+}
+
+i{
+    font-size: 5rem;
+}
+
+.contacts-icon, .carousel{
+    border: var(--primary-color) 2px solid;
+    padding: 4px; 
+}
+
+.carousel{
+    width: 50vw;
+    height:50vh;
+    overflow: hidden;
+}
+
+.carousel-item img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-item a:hover{
+    text-decoration: underline;
+}
+
+a > i{
+    color: var(--primary-color);
+}
+
+a > i:hover{
+    color: white;
+}
+
+
+#skills-nav .active{
+    background-color: #ffffff4f;
+}
